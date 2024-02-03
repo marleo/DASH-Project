@@ -16,7 +16,7 @@
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="30/1" maxWidth="1280" maxHeight="720" par="16:9" lang="und">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="1003708" width="1280" height="720" scanType="unknown" sar="1:1">
-				<SegmentTemplate timescale="15360" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="193024" />
 						<S d="116736" />
@@ -91,7 +91,7 @@
 		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="und">
 			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128321" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6" />
-				<SegmentTemplate timescale="48000" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="239616" />
 						<S d="240640" r="124" />
@@ -102,7 +102,7 @@
 		</AdaptationSet>
 		<AdaptationSet id="2" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="30/1" maxWidth="854" maxHeight="480" par="16:9" lang="und">
 			<Representation id="2" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="498155" width="854" height="480" scanType="unknown" sar="1280:1281">
-				<SegmentTemplate timescale="15360" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="193024" />
 						<S d="116736" />
@@ -177,7 +177,7 @@
 		<AdaptationSet id="3" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="und">
 			<Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128321" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6" />
-				<SegmentTemplate timescale="48000" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="239616" />
 						<S d="240640" r="124" />
@@ -188,7 +188,7 @@
 		</AdaptationSet>
 		<AdaptationSet id="4" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="30/1" maxWidth="640" maxHeight="360" par="16:9" lang="und">
 			<Representation id="4" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="248953" width="640" height="360" scanType="unknown" sar="1:1">
-				<SegmentTemplate timescale="15360" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="196608" />
 						<S d="113152" />
@@ -263,7 +263,7 @@
 		<AdaptationSet id="5" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="und">
 			<Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128321" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6" />
-				<SegmentTemplate timescale="48000" initialization="video_segments/init-stream$RepresentationID$.m4s" media="video_segments/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="239616" />
 						<S d="240640" r="124" />
