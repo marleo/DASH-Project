@@ -8,13 +8,13 @@
  <Period duration="PT0H10M34.600S">
   <AdaptationSet segmentAlignment="true" maxWidth="1280" maxHeight="720" maxFrameRate="30" par="16:9" lang="und" startWithSAP="1">
    <Representation id="vid1" mimeType="video/mp4" codecs="avc1.64001F" width="1280" height="720" frameRate="30" sar="1:1" bandwidth="2528743">
-    <SegmentTemplate media="video_segments/segment_Big_Buck_Bunny_720p$Number$.m4s" initialization="video_segments/segment_Big_Buck_Bunny_720pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
+    <SegmentTemplate media="segment_Big_Buck_Bunny_720p$Number$.m4s" initialization="segment_Big_Buck_Bunny_720pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
    </Representation>
    <Representation id="vid2" mimeType="video/mp4" codecs="avc1.64001F" width="854" height="480" frameRate="30" sar="1280:1281" bandwidth="1007899">
-    <SegmentTemplate media="video_segments/segment_Big_Buck_Bunny_480p$Number$.m4s" initialization="video_segments/segment_Big_Buck_Bunny_480pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
+    <SegmentTemplate media="segment_Big_Buck_Bunny_480p$Number$.m4s" initialization="segment_Big_Buck_Bunny_480pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
    </Representation>
    <Representation id="vid3" mimeType="video/mp4" codecs="avc1.64001E" width="640" height="360" frameRate="30" sar="1:1" bandwidth="500873">
-    <SegmentTemplate media="video_segments/segment_Big_Buck_Bunny_360p$Number$.m4s" initialization="video_segments/segment_Big_Buck_Bunny_360pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
+    <SegmentTemplate media="segment_Big_Buck_Bunny_360p$Number$.m4s" initialization="segment_Big_Buck_Bunny_360pinit.mp4" timescale="15360" startNumber="1" duration="61440"/>
    </Representation>
   </AdaptationSet>
  </Period>
